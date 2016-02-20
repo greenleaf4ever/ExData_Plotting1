@@ -1,7 +1,7 @@
 
 ## Get dataset
-setwd("C:/Users/schang/Desktop/Luye Dropbox/Dropbox/Coursera/Exploratory Data Analysis/Week 1")
-data <- read.table("C:/Users/schang/Desktop/Luye Dropbox/Dropbox/Coursera/Exploratory Data Analysis/Week 1/household_power_consumption.txt",
+
+data <- read.table("./household_power_consumption.txt",
                    header = TRUE, sep = ";", colClasses = c("character", "character", rep("numeric",7)), na = "?")
 attach(data)
 
