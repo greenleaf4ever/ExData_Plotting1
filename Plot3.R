@@ -1,6 +1,6 @@
 
 ## Get dataset
-data <- read.table("C:/Users/schang/Desktop/Luye Dropbox/Dropbox/Coursera/Exploratory Data Analysis/Week 1/household_power_consumption.txt", header=T, sep=';', na.strings="?", 
+data <- read.table("./household_power_consumption.txt", header=T, sep=';', na.strings="?", 
                       nrows=2075259, stringsAsFactors=F)
 data$Date <- as.Date(data$Date, format="%d/%m/%Y")
 
