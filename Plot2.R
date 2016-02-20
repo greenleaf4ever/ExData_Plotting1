@@ -1,6 +1,6 @@
 ## Load the dataset
-setwd("C:/Users/schang/Desktop/Luye Dropbox/Dropbox/Coursera/Exploratory Data Analysis/Week 1")
-datafile <- "C:/Users/schang/Desktop/Luye Dropbox/Dropbox/Coursera/Exploratory Data Analysis/Week 1/household_power_consumption.txt"
+
+datafile <- "./household_power_consumption.txt"
 data <- read.table(datafile,header = TRUE, sep = ";", na.strings = "?")
 
 ##subset data from the dates 2007-02-01 and 2007-02-02
